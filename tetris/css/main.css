@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.wrap {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 400px;
+  margin-left: 10px;
+  border: 2px solid #1E9FFF;
+  border-top: none;
+}
+.next .row,
+.wrap .row {
+  flex: 1;
+  display: flex;
+}
+.next .row .col,
+.wrap .row .col {
+  flex: 1;
+}
+.type-0 {
+  background-color: #fff;
+}
+.type-1 {
+  background-color: blue;
+}
+.type-2 {
+  background-color: red;
+}
+.type-3 {
+  background-color: green;
+}
+.done {
+  background-color: gray;
+}
+
+.info {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 100px;
+  height: 200px;
+  border: 1px solid #0000FF;
+}
+
+.next {
+  display: flex;
+  flex-direction: column;
+  width: 80px;
+  height: 80px;  
+  margin: 0 auto;
+}
+
+.control {
+  display: flex;
+  width: 300px;
+  height: 150px;
+  margin: 30px auto;
+  border: 1px solid #00FFFF;
+}
+.control .cross-wrap {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.control .cross-wrap .row {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.control .rotate-wrap {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  outline: none;
+  border: none;
+}
+.cross {
+  width: 30px;
+  height: 30px;
+}
+.rotate {
+  width: 50px;
+  height: 50px;
+}

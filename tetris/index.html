@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="./css/main.css"/>
+</head>
+<body>
+  <div class="info">
+    <div class="next"></div>
+  </div>
+  <div class="wrap"></div>
+  <div class="control">
+    <div class="cross-wrap">
+      <div class="row">
+        <div class="cross"></div>
+        <button class="btn cross" data-key="up">上</button>        
+        <div class="cross"></div>
+      </div>
+      <div class="row">
+        <button class="btn cross" data-key="left">左</button>
+        <div class="cross"></div>
+        <button class="btn cross" data-key="right">右</button>
+      </div>
+      <div class="row">
+        <div class="cross"></div>
+        <button class="btn cross" data-key="down">下</button>     
+         <div class="cross"></div>
+      </div>
+    </div>
+    <div class="rotate-wrap">
+      <button class="btn rotate" data-key="rotate">旋转</button>
+    </div>
+  </div>
+  <script src="./js/main.js" type="text/javascript" charset="utf-8"></script>
+  <script src="./js/square.js" type="text/javascript" charset="utf-8"></script>
+  <script src="./js/local.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript">
+    let local = new Local()
+  </script>
+</body>
+</html>
